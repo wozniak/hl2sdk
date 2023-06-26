@@ -259,7 +259,7 @@ typedef void * HINSTANCE;
 #define offsetof(s,m)	(size_t)&(((s *)0)->m)
 #else
 #undef offsetof
-#define offsetof(s,m)	(size_t)&(((s *)0)->m)
+//#define offsetof(s,m)	(size_t)&(((s *)0)->m)
 #endif
 
 
