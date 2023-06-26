@@ -1,4 +1,4 @@
-//========= Copyright � 1996-2005, Valve Corporation, All rights reserved. ============//
+//========= Copyright Â© 1996-2005, Valve Corporation, All rights reserved. ============//
 //
 // Purpose: Entity to control screen overlays on a player
 //
@@ -49,7 +49,7 @@ BEGIN_DATADESC( CEnvScreenOverlay )
 //	DEFINE_ARRAY( m_iszOverlayNames, FIELD_STRING, MAX_SCREEN_OVERLAYS ),
 //	DEFINE_ARRAY( m_flOverlayTimes, FIELD_FLOAT, MAX_SCREEN_OVERLAYS ),
 
-	/* This causes a cannot apply �offsetof� when �operator[]� is overloaded error in GCC 4.2
+	/* This causes a cannot apply â€˜offsetofâ€™ when â€˜operator[]â€™ is overloaded error in GCC 4.2
 	DEFINE_KEYFIELD( m_iszOverlayNames[0], FIELD_STRING, "OverlayName1" ),
 	DEFINE_KEYFIELD( m_iszOverlayNames[1], FIELD_STRING, "OverlayName2" ),
 	DEFINE_KEYFIELD( m_iszOverlayNames[2], FIELD_STRING, "OverlayName3" ),

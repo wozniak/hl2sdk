@@ -1,4 +1,4 @@
-//========= Copyright � 1996-2005, Valve Corporation, All rights reserved. ============//
+//========= Copyright Â© 1996-2005, Valve Corporation, All rights reserved. ============//
 //
 // Purpose: 
 //
@@ -117,9 +117,9 @@ void CHudNumericDisplay::PaintNumbers(HFont font, int xpos, int ypos, int value)
 		int iMinutes = value / 60;
 		int iSeconds = value - iMinutes * 60;
 		if ( iSeconds < 10 )
-			swprintf( unicode, L"%d�0%d", iMinutes, iSeconds );
+			swprintf( unicode, L"%dâ€˜0%d", iMinutes, iSeconds );
 		else
-			swprintf( unicode, L"%d�%d", iMinutes, iSeconds );
+			swprintf( unicode, L"%dâ€˜%d", iMinutes, iSeconds );
 	}
 
 	// adjust the position to take into account 3 characters

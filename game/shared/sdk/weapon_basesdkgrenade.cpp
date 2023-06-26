@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2005, Valve Corporation, All rights reserved. ============//
+//========= Copyright Â© 1996-2005, Valve Corporation, All rights reserved. ============//
 //
 // Purpose: 
 //
@@ -88,7 +88,7 @@ bool CBaseSDKGrenade::Deploy()
 bool CBaseSDKGrenade::Holster( CBaseCombatWeapon *pSwitchingTo )
 {
 	m_bRedraw = false;
-	m_bPinPulled = false; // when this is holstered make sure the pin isn’t pulled.
+	m_bPinPulled = false; // when this is holstered make sure the pin isnâ€™t pulled.
 	m_fThrowTime = 0;
 
 #ifndef CLIENT_DLL

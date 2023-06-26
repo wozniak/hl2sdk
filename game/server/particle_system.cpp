@@ -1,4 +1,4 @@
-//====== Copyright Â© 1996-2005, Valve Corporation, All rights reserved. =======
+//====== Copyright Ã‚Â© 1996-2005, Valve Corporation, All rights reserved. =======
 //
 // Purpose: An entity that spawns and controls a particle system
 //
@@ -102,7 +102,7 @@ BEGIN_DATADESC( CParticleSystem )
 	DEFINE_KEYFIELD( m_iszControlPointNames[61], FIELD_STRING, "cpoint62" ),
 	DEFINE_KEYFIELD( m_iszControlPointNames[62], FIELD_STRING, "cpoint63" ),
 
-	/* This causes a cannot apply ‘offsetof’ when ‘operator[]’ is overloaded error in GCC 4.2
+	/* This causes a cannot apply â€˜offsetofâ€™ when â€˜operator[]â€™ is overloaded error in GCC 4.2
 	DEFINE_KEYFIELD( m_iControlPointParents[0], FIELD_CHARACTER, "cpoint1_parent" ),
 	DEFINE_KEYFIELD( m_iControlPointParents[1], FIELD_CHARACTER, "cpoint2_parent" ),
 	DEFINE_KEYFIELD( m_iControlPointParents[2], FIELD_CHARACTER, "cpoint3_parent" ),

@@ -1,4 +1,4 @@
-//========= Copyright � 1996-2004, Valve LLC, All rights reserved. ============
+//========= Copyright Â© 1996-2004, Valve LLC, All rights reserved. ============
 //
 // Purpose: Simple HUD element
 //
